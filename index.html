@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h2>My First JavaScript</h2>
+    <button onclick="document.getElementById('result').innerHTML=Date()">Click me to display Date and Time</button>
+    <h4 id="result"></h4>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <button onclick="document.getElementById('bulb').src='img/pic_bulbon.gif'">Turn on</button>
+    <img src="img/pic_bulboff.gif" id="bulb" alt="">
+    <button onclick="document.getElementById('bulb').src ='img/pic_bulboff.gif'">Turn off</button>
+
+ <script src="js/main.js"></script>
+        
+</body>
+</html>
